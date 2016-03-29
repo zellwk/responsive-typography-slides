@@ -38,7 +38,7 @@
 					<p>Freelance Developer in Singapore</p>
 					<ul class="small">
 						<li class="fragment">Learning Susy</li>
-						<li class="fragment">Automate Your Workflow (with Gulp)</li>
+						<li class="fragment">Automate Your Workflow</li>
 						<li class="fragment">Responsive Typography Course (in the works)</li>
 					</ul>
 				</section>
@@ -61,7 +61,7 @@
 				</section>
 
 				<section>
-          <img src="images/handwriting.jpg" alt="">
+          <img class="align-center" src="images/handwriting.jpg" alt="">
         </section>
 
 				<section>
@@ -75,9 +75,9 @@
 				<section>
 					<h3>3 Important Properties</h3>
 					<ul>
-						<li>Font-size</li>
-						<li>Leading (line height)</li>
-						<li>Measure (width of text)</li>
+						<li class="fragment">Font-size</li>
+						<li class="fragment">Leading (line height)</li>
+						<li class="fragment">Measure (width of text)</li>
 					</ul>
 				</section>
 
@@ -162,8 +162,8 @@ p {
 				<section>
 					<h3>Typography Best Practices</h3>
 					<ul>
-						<li>Modular Scale</li>
-						<li>Vertical Rhythm</li>
+						<li class="fragment">Modular Scale</li>
+						<li class="fragment">Vertical Rhythm</li>
 					</ul>
 				</section>
 				<section>
@@ -184,8 +184,8 @@ h3 { font-size: 28.430px; } // 16px * 1.333 * 1.333</code></pre>
 				<section>
 					<h3>Using Vertical Rhythm</h3>
 					<ul>
-						<li><strong>Vertical white space between elements</strong> to a <strong>multiple of 24px.</strong></li>
-						<li><strong>Line-height of all text elements</strong> to a <strong>multiple of 24px.</strong></li>
+						<li class="fragment"><strong>Vertical white space between elements</strong> to a <strong>multiple of 24px.</strong></li>
+						<li class="fragment"><strong>Line-height of all text elements</strong> to a <strong>multiple of 24px.</strong></li>
 					</ul>
 				</section>
 
@@ -224,7 +224,9 @@ p {
 					</div>
 				</section>
 
-				<section data-background="images/vertical-rhythm.png"></section>
+				<section>
+          <img src="images/vertical-rhythm.png" alt="" class="align-center">
+        </section>
 
 				<section><h2>Modular Scale + Vertical Rhythm</h2></section>
 
@@ -285,6 +287,10 @@ h1 {
 				<section>
 					<h2 class="align-center">The Principle of Repetition</h2>
 				</section>
+
+        <section>
+          <img class="align-center" src="images/baseline-24.png" alt="">
+        </section>
 
 				<section>
 					<h3>Principle of Repetition</h3>
@@ -470,9 +476,9 @@ p {
 	}
 }
 
-h1 { font-size: 3.157rem } // 1.333 * 1.333 * 1.333 * 1.333
-h2 { font-size: 2.369rem } // 1.333 * 1.333 * 1.333
-h3 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
+h1 { font-size: 3.157rem; } // 1.333 * 1.333 * 1.333 * 1.333
+h2 { font-size: 2.369rem; } // 1.333 * 1.333 * 1.333
+h3 { font-size: 1.777rem; } // 1.333 * 1.333         </code></pre>
 				</section>
 
 				<section>
@@ -488,9 +494,9 @@ h3 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
 	}
 }
 
-h1 { font-size: 3.157rem } // 1.333 * 1.333 * 1.333 * 1.333
-h2 { font-size: 2.369rem } // 1.333 * 1.333 * 1.333
-h3 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
+h1 { font-size: 3.157rem; } // 1.333 * 1.333 * 1.333 * 1.333
+h2 { font-size: 2.369rem; } // 1.333 * 1.333 * 1.333
+h3 { font-size: 1.777rem; } // 1.333 * 1.333         </code></pre>
 				</section>
 
 				<section data-background="images/modular-scale-big.png"> </section>
@@ -504,7 +510,7 @@ h3 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
 }
 
 h1 {
-	font-size: 2.369rem // 1.333 * 1.333 * 1.333
+	font-size: 2.369rem; // 1.333 * 1.333 * 1.333
 	@media (min-width: 600px) {
 		font-size: 3.157rem; // 1.333 * 1.333 * 1.333 * 1.333
 	}
@@ -513,21 +519,21 @@ h1 {
 
 				<section>
 					<pre><code class="scss">h1 {
-	font-size: 2.369rem // 1.333 * 1.333 * 1.333
+	font-size: 2.369rem; // 1.333 * 1.333 * 1.333
 	@media (min-width: 600px) {
 		font-size: 3.157rem; // 1.333 * 1.333 * 1.333 * 1.333
 	}
 }
 
 h2 {
-	font-size: 1.777rem // 1.333 * 1.333
+	font-size: 1.777rem; // 1.333 * 1.333
 	@media (min-width: 600px) {
 		font-size: 2.369rem; // 1.333 * 1.333 * 1.333
 	}
 }
 
 h3 {
-	font-size: 1.333rem // 1.333
+	font-size: 1.333rem; // 1.333
 	@media (min-width: 600px) {
 		font-size: 1.777rem; // 1.333 * 1.333
 	}
@@ -834,6 +840,7 @@ h1 { margin: calc(var(--baseline) * 2); } </code></pre>
 				<section>
 					<h2>I'm Zell</h2>
 					<ul>
+            <li><a href="htttp:/zellwk.com">zellwk.com</a></li>
 						<li><a href="mailto:zellwk@gmail.com">zellwk@gmail.com</a></li>
 						<li><a href="https://twitter.com/zellwk">@zellwk</a></li>
 					</ul>
