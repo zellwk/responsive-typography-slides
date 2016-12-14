@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<title>Responsive Typography at RWD Summit 2016 - Zell Liew</title>
-	<meta name="description" content="Responsive Typography at RWD Summit 2016 - Zell Liew">
+	<title>Responsive Typography at Sass Summit 2016 - Zell Liew</title>
+	<meta name="description" content="Responsive Typography at Sass Summit 2016 - Zell Liew">
 	<meta name="author" content="Zell Liew">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -35,42 +35,68 @@
 				</section>
 				<section>
 					<h3>Hello, I'm Zell</h3>
-					<p>Freelance Developer in Singapore</p>
+					<p>Freelance developer in Singapore</p>
 					<ul class="small">
 						<li class="fragment"><a href="http://learnsusy.zellwk.com/">Learning Susy</a></li>
 						<li class="fragment"><a href="http://automateyourworkflow.com/">Automate Your Workflow</a></li>
-						<li class="fragment">Responsive Typography Course (in the works)</li>
+						<li class="fragment">Mastering Responsive Typography (releasing this soon!)</li>
 					</ul>
 				</section>
 
-				<section>
-					<pre><code>h1 {
-	font-size: 50px;
-	@media (min-width: 600px)	{
-		font-size: 60px;
-	}
-}
-// ... h2, h3, h4, h5, h6, p
-</code></pre>
-				</section>
+        <section>
+          <h2 class="align-center">Responsive Typography</h2>
+        </section>
 
         <section data-background="images/design-and-code.png"> </section>
 
-				<section>
-					<h2 class="align-center">The Purpose of Typography</h2>
-				</section>
-
-				<section>
-          <img class="align-center" src="images/handwriting.jpg" alt="">
+        <section>
+          <h3>Today</h3>
+          <ul>
+            <li class="fragment">What is good typography</li>
+            <li class="fragment">What typography practices you should follow</li>
+            <li class="fragment">What responsive typography practices you should use</li>
+            <li class="fragment">Some ugly code</li>
+            <li class="fragment">Cleaner code</li>
+          </ul>
         </section>
 
+				<section>
+					<h2 class="align-center">What is good typography?</h2>
+				</section>
+
+        <section>
+          <blockquote>
+            Typography helps text communicate
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Good typography</h3>
+          <ul>
+            <li class="fragment">Communicates the right emotions (or lack thereof) </li>
+            <li class="fragment">Easy to read </li>
+          </ul>
+        </section>
+
+				<section>
+          <img class="align-center" src="images/comic-sans-lv.png" alt="">
+        </section>
+
+        <section>
+          <h3>Good typography</h3>
+          <ul>
+            <li class="dismissed">Communicates the right emotions (or lack thereof) </li>
+            <li>Easy to read </li>
+          </ul>
+        </section>
+<!--
 				<section>
 					<p class="fz-default l-normal">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar–except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
 				</section>
 
 				<section>
 					<p class="fz-right l-right m-right">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar–except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
-				</section>
+				</section> -->
 
 				<section>
 					<h3>3 Important Properties</h3>
@@ -90,10 +116,10 @@
         </section>
 
         <section data-background='images/range.png'></section>
-        <section data-background='images/viewing-distance.png'></section>
-        <section data-background='images/garamond-vs-facit.png'></section>
+        <!-- <section data-background='images/garamond-vs-facit.png'></section> -->
         <section data-background='images/range-2.png'></section>
         <section data-background='images/sweet-spot.png'></section>
+        <section data-background='images/viewing-distance.png'></section>
 
         <section>
           <p class="fz-right">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar–except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
@@ -139,15 +165,10 @@
           </ul>
         </section>
 
-
-        <section>
-          <p class="fz-right m-right l-right">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar–except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
-        </section>
-
         <section>
             <h3>Font-size, Leading and Measure</h3>
           <pre><code>html {
-  font-size: 18px; // Minimum of 18px on mobile
+  font-size: 16px; // Minimum of 16px on mobile
   line-height: 1.4; // 1.3 - 1.6
 }
 
@@ -300,6 +321,15 @@ h1 {
 					</ul>
 				</section>
 
+        <section>
+          <h3>Other design principles</h3>
+          <ul>
+            <li class="fragment">Contrast</li>
+            <li class="fragment">Alignment</li>
+            <li class="fragment">Proximity</li>
+          </ul>
+        </section>
+
 				<section>
 					<h1 class="align-center">Responsive Typography <br> Best Practices</h1>
 				</section>
@@ -309,8 +339,8 @@ h1 {
 					<ul>
 						<li class="fragment">Change font-size when screen width changes</li>
 						<li class="fragment">Use Relative Units</li>
-						<li class="fragment">Modular Scale</li>
-						<li class="fragment">Vertical Rhythm</li>
+						<li class="fragment">Change header sizes whenever necessary</li>
+						<li class="fragment">Maintain Vertical Rhythm</li>
 					</ul>
 				</section>
 
@@ -329,21 +359,6 @@ h1 {
 	}
 	@media (min-width: 1000px) {
 		font-size: 20px;
-	}
-}         </code></pre>
-				</section>
-
-				<section>
-					<h3>Changing Font-size and line-height</h3>
-					<pre><code>html {
-	font-size: 16px;
-	line-height: 1.4;
-	@media (min-width: 600px) {
-		font-size: 18px;
-	}
-	@media (min-width: 1000px) {
-		font-size: 20px;
-		line-height: 1.5;
 	}
 }         </code></pre>
 				</section>
@@ -481,12 +496,45 @@ h2 { font-size: 2.369rem; } // 1.333 * 1.333 * 1.333
 h3 { font-size: 1.777rem; } // 1.333 * 1.333         </code></pre>
 				</section>
 
+        <section>
+          <h2>Fluid typography?</h2>
+        </section>
+
+        <section>
+          <h3>Fluid typography</h3>
+          <pre><code class="scss">html {
+  font-size: calc(1em + 0.25vw);
+}
+
+h1 { font-size: 3.157rem; } // 1.333 * 1.333 * 1.333 * 1.333
+h2 { font-size: 2.369rem; } // 1.333 * 1.333 * 1.333
+h3 { font-size: 1.777rem; } // 1.333 * 1.333         </code></pre>
+        </section>
+
+        <section>
+          <h3>Fluid typography</h3>
+          <pre><code class="scss">html {
+  font-size: 1em;
+
+  // Scales by 1px for every 100px from 600px onwards
+  @media (min-width: 600px) {
+    font-size: calc(1.125em + 4 * (100vw - 600px) / 400);
+  }
+
+  // Sets font-size to 22px after a viewport of 1000px
+  @media (min-width: 1000px) {
+    font-size: 1.375em;
+  }
+}
+// h1, h2, h3...</code></pre>
+        </section>
+
 				<section>
-					<h2>Responsive Modular Scale</h2>
+					<h2>Changing header sizes</h2>
 				</section>
 
 				<section>
-					<h3>Responsive Modular Scale</h3>
+					<h3>Changing header sizes</h3>
 					<pre><code class="scss">html {
 	font-size: 16px;
 	@media (min-width: 600px) {
@@ -547,13 +595,72 @@ h3 {
 					<h2 class="align-center">There is a way to fix this madness!</h2>
 				</section>
 
+        <section>
+          <h2>Maintain Vertical Rhythm</h2>
+        </section>
+
+        <section>
+          <h3>Maintain Vertical Rhythm</h3>
+          <pre><code>html {
+  line-height: 1.4;
+  @media (min-width: 1000px) {
+    line-height: 1.5;
+  }
+} </code></pre>
+        </section>
+
+        <section>
+          <h3>Maintain Vertical Rhythm</h3>
+                        <pre><code>h1 {
+  margin: 1.4rem;
+  @media (min-width: 1000px) {
+    margin 1.5rem;
+  }
+}
+
+h2 {
+  margin: 1.4rem;
+  @media (min-width: 1000px) {
+    margin 1.5rem;
+  }
+}
+//... Every property that requires Vertical Rhythm calculation!
+</code></pre>
+        </section>
+
+        <section>
+          <h1 class="align-center">😱</h1>
+        </section>
+
+        <section>
+          <h3>A Potential Solution with CSS Variables</h3>
+          <pre><code>:root {
+  --baseline: 1.4;
+  @media (min-width: 1000px) {
+    --baseline: 1.5;
+  }
+}
+
+html { line-height: var(--baseline); }
+h1 { margin: calc(var(--baseline) * 2); } </code></pre>
+        </section>
+
+        <section>
+          <p class="align-center">So... don't change your baseline!
+          <br><span class="small fragment">(until Edge ships CSS Variables)</span>
+        </section>
+
+        <section>
+          <p class="align-center">So... don't change your baseline!
+          <br><span class="small">(or use @supports if you don't care about Edge)</span> </hp>
+        </section>
+
+        <section>
+          <h2 class="align-center">Fixing the Media Query Madness </h2>
+        </section>
+
 				<section>
 					<h2>Introducing Typi</h2>
-					<div class="small relative">
-						<div class="fragment fade-out">(The fix for modular scale madness)</div>
-						<div class="absolute fragment">(Also the fix for "What if my designer doesn't follow modular scale???")</div>
-					</div>
-
 					<p class="small fragment"><a href="https://github.com/zellwk/typi">https://github.com/zellwk/typi</a></p>
 				</section>
 
@@ -561,43 +668,21 @@ h3 {
 					<h3>Using Typi (body text)</h3>
 					<div class="l-half">
 						<div>
-							<pre><code>\$breakpoints: (
+							<pre><code>// Configuring Typi
+\$breakpoints: (
   small: 600px,
   large: 1000px
 );
 
-
-
-
-							</code></pre>
-						</div>
-
-						<div>
-
-							<pre><code class="scss">\$typi: (
-  null: (16px, 1.4),
-  small: 18px,
-  large: (20px, 1.5)
-);
-
-html {
-	@include typi-base();
-}						</code></pre>
-						</div>
-					</div>
-				</section>
-
-				<section>
-					<h3>Using Typi (body text)</h3>
-					<div class="l-half">
-						<div>
-							<pre><code>// Sass input
 \$typi: (
   null: (16px, 1.4),
   small: 18px,
   large: (20px, 1.5)
-);
+); </code></pre>
+						</div>
 
+						<div>
+							<pre><code class="scss"> // Using Typi
 html {
 	@include typi-base();
 }
@@ -610,9 +695,12 @@ html {
 
 </code></pre>
 						</div>
+					</div>
+				</section>
 
-						<div>
-							<pre><code> /* CSS Output */
+				<section>
+					<h3>Typi (body text)</h3>
+					<pre><code> /* CSS Output */
 html {
   font-size: 100%;
   line-height: 1.4;
@@ -630,35 +718,24 @@ html {
     line-height: 1.5;
   }
 } </code></pre>
-						</div>
-					</div>
 				</section>
 
 				<section>
-					<h3>Using Typi (Other elements)</h3>
-					<div class="l-half">
-						<div>
+					<h3>Typi (headers and other elements)</h3>
 							<pre><code class="scss">// Scss input
 \$h1-map: (
   null: (2.369em, 1.2),
   large: (3.157em, 1.3)
 );
 
-\$h2-map: (
-  null: (1.777em, 1.2),
-  large: 2.369em
-);
-
 h1 { @include typi(\$h1-map); }
-h2 { @include typi(\$h2-map); }
-
-
-
 </code></pre>
-						</div>
 
-						<div>
-							<pre><code>/* CSS Output */
+				</section>
+
+        <section>
+          <h3>Typi (headers and other elements)</h3>
+          <pre><code>/* CSS Output */
 h1 {
   font-size: 2.369rem;
   line-height: 1.2;
@@ -670,26 +747,12 @@ h1 {
     line-height: 1.3;
   }
 }
-
-h2 {
-  font-size: 2.369rem;
-}
-
-@media all and (min-width: 1000px) {
-  h2 {
-    font-size: 1.777rem;
-  }
-}</code></pre>
-						</div>
-					</div>
-				</section>
-
+</code></pre>
+        </section>
 
 				<section>
-					<h3>Using Typi (Pro-tip)</h3>
-					<div class="l-half">
-						<div>
-							<pre><code class="scss">// Scss input
+					<h3>Typi with Modular Scale</h3>
+					<pre><code class="scss">// Scss input
 \$ms-ratio: 1.333;
 \$h1-map: (
   null: (ms(2), 1.2),
@@ -702,15 +765,12 @@ h2 {
 );
 
 h1 { @include typi(\$h1-map); }
-h2 { @include typi(\$h2-map); }
+h2 { @include typi(\$h2-map); } </code></pre>
+				</section>
 
-
-
-</code></pre>
-						</div>
-
-						<div>
-							<pre><code>/* CSS Output */
+        <section>
+          <h3>Typi with Modular Scale</h3>
+          <pre><code>/* CSS Output */
 h1 {
   font-size: 2.369rem;
   line-height: 1.2;
@@ -731,28 +791,32 @@ h2 {
   h2 {
     font-size: 1.777rem;
   }
-}</code></pre>
-						</div>
-					</div>
-				</section>
+}
+              </code></pre>
+        </section>
 
 				<section>
 					<h3>The code so far ...</h3>
-					<pre><code>html { @include typi-base(); }
+					<pre><code>// Configure Typi
+\$breakpoints: (/* ... */);
+\$typi: (/* ... */);
+
+// Use Typi
+html { @include typi-base(); }
 h1 { @include typi(\$h1-map); }
 h2 { @include typi(\$h2-map); }
 h3 { @include typi(\$h3-map); }</code></pre>
 				</section>
 
 				<section>
-					<h2>Vertical Rhythm</h2>
+					<h2>Vertical Rhythm with Typi</h2>
 				</section>
 
 				<section>
-					<h3>Vertical Rhythm</h3>
+					<h3>Vertical Rhythm with Typi</h3>
 					<pre><code>html {
 	font-size: 100%;
-	line-height: 1.5; // instead of 24px
+	line-height: 1.5;
 }
 
 h1 {
@@ -762,10 +826,10 @@ h1 {
 				</section>
 
 				<section>
-					<h3>Vertical Rhythm</h3>
+					<h3>Vertical Rhythm with Typi</h3>
 					<pre><code>html {
 	font-size: 100%;
-	line-height: 1.5; // instead of 24px
+	line-height: 1.5;
 }
 
 h1 {
@@ -776,69 +840,24 @@ h1 {
 
 				<section>
 					<h3>Vertical Rhythm</h3>
-					<pre><code>h1 {
+					<pre><code>html {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+h1 {
 	margin: vr(1); // 1 Baseline
 	line-height: vr(2.5); // 2.5 Baselines
 } </code></pre>
 				</section>
 
-				<section>
-					<h3><strikethrough>Responsive</strikethrough>Vertical Rhythm</h3>
-
-					<div class="l-half">
-						<div>
-							<pre><code>html {
-	line-height: 1.4;
-	@media (min-width: 1000px) {
-		line-height: 1.5;
-	}
-} </code></pre>
-						</div>
-
-						<div>
-							<pre><code>h1 {
-	margin: 1.4rem;
-	@media (min-width: 1000px) {
-		margin 1.5rem;
-	}
-}
-</code></pre>
-						</div>
-					</div>
-				</section>
+        <section>
+          <h2>Have fun with Typi!</h2>
+          <p class="small fragment"><a href="https://github.com/zellwk/typi/">https://github.com/zellwk/typi/</a></p>
+        </section>
 
 				<section>
-					<h1 class="align-center">😱</h1>
-				</section>
-
-				<section>
-					<h3>A Potential Solution (we can't do this yet)</h3>
-					<pre><code>// Will be added to Typi when there is good support for CSS Variables
-:root {
-	--baseline: 1.4;
-	@media (min-width: 1000px) {
-		--baseline: 1.5;
-	}
-}
-
-html { line-height: var(--baseline); }
-h1 { margin: calc(var(--baseline) * 2); } </code></pre>
-				</section>
-
-				<section>
-					<p>So... Don't change your baseline at different breakpoints (for now).</hp>
-				</section>
-
-				<section>
-					<h1 class="align-center">That's it!</h1>
-				</section>
-
-				<section>
-					<h1 class="align-center">Questions?</h1>
-				</section>
-
-				<section>
-					<h2>I'm Zell</h2>
+					<h2>Thank you!</h2>
 					<ul>
             <li><a href="htttp:/zellwk.com">zellwk.com</a></li>
 						<li><a href="mailto:zellwk@gmail.com">zellwk@gmail.com</a></li>
@@ -860,7 +879,7 @@ h1 { margin: calc(var(--baseline) * 2); } </code></pre>
     	center: true,
     	width: 1150,
 
-        transition: 'slide', // none/fade/slide/convex/concave/zoom
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
 
         // Optional reveal.js plugins
         dependencies: [{

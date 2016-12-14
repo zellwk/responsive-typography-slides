@@ -1,0 +1,960 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Typography at RWD Summit 2016 - Zell Liew</title>
+  <meta name="description" content="Responsive Typography at RWD Summit 2016 - Zell Liew">
+  <meta name="author" content="Zell Liew">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme/custom.css" id="theme">
+  <!-- Code syntax highlighting -->
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="reveal">
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1 class="align-center">Responsive Typography</h1>
+        </section>
+        <section>
+          <h3>Hello, I'm Zell</h3>
+          <p>Freelance Developer in Singapore</p>
+          <ul class="small">
+            <li>Learning Susy</li>
+            <li>Automate Your Workflow (with Gulp)</li>
+            <li>Responsive Typography Course (in the works)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1 class="align-center">Responsive Typography</h1>
+        </section>
+
+        <section data-background="images/design-and-code.png"> </section>
+
+        <section data-background="images/handwriting.png">
+          <h1 class="align-center">Handwriting Image!</h1>
+        </section>
+
+        <section data-background="images/read.png"></section>
+
+        <section>
+          <div class="l-half">
+            <div>
+              <div>
+                <p class="fz-default l-normal">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar--except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <p class="fz-right l-right">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar--except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Communication</h3>
+          <ol>
+            <li>Readabibility</li>
+            <li>Right Emotions (or lack of)</li>
+          </ol>
+        </section>
+
+        <section data-background="images/comic-sans-lv.png"></section>
+
+        <section>
+          <h2>Readability</h2>
+        </section>
+
+        <section>
+          <h3>3 Important Properties</h3>
+          <ul>
+            <li>Font-size</li>
+            <li>Leading (line height)</li>
+            <li>Measure (width of text)</li>
+          </ul>
+        </section>
+
+        <!-- <section>
+          <h2>Determining Font-size</h2>
+        </section>
+
+        <section>
+          <p class="fz-default">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section data-background='images/range.png'></section>
+        <section data-background='images/viewing-distance.png'></section>
+        <section data-background='images/garamond-vs-facit.png'></section>
+        <section data-background='images/range-2.png'></section>
+        <section data-background='images/sweet-spot.png'></section>
+
+        <section>
+          <p class="fz-right">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+        <section>
+          <h2>Determing Measure</h2>
+        </section>
+
+        <section>
+          <p class="fz-right">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section>
+          <p class="fz-right m-short">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section data-background='images/range-measure.png'></section>
+
+        <section>
+          <p class="fz-right m-right">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section>
+          <h2>Determining Leading</h2>
+        </section>
+
+        <section>
+          <p class="fz-right m-right">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section>
+          <p class="fz-right m-right l-normal">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick. The nuckelavee's breath can wilt crops and sicken livestock, and the creature was held responsible for droughts and epidemics on land despite its being predominantly a sea-dweller.</p>
+          <p class="fz-right m-right l-normal">A graphic first-hand description of the nuckelavee as it appears on land was given by an islander who claimed to have had a confrontation with it, but accounts describing the details of the creature's appearance are inconsistent. In common with many other sea monsters it is unable to tolerate fresh water, therefore those it is pursuing have only to cross a river or stream to be rid of it. The nuckelavee is kept in confinement during the summer months by the Mither o' the Sea, an ancient Orcadian spirit, and the only one able to control it.
+          </p>
+        </section>
+
+        <section data-background="images/range-leading.png"></section>
+
+        <section>
+          <h3>Leading is affected by</h3>
+          <ul>
+            <li>Font-size</li>
+            <li>Measure</li>
+          </ul>
+        </section> -->
+
+
+        <section>
+          <p class="fz-right m-right l-right">Dorothy lived in the midst of the great Kansas prairies, with Uncle Henry, who was a farmer, and Aunt Em, who was the farmer's wife. Their house was small, for the lumber to build it had to be carried by wagon many miles. There were four walls, a floor and a roof, which made one room; and this room contained a rusty looking cookstove, a cupboard for the dishes, a table, three or four chairs, and the beds. Uncle Henry and Aunt Em had a big bed in one corner, and Dorothy a little bed in another corner. There was no garret at all, and no cellar--except a small hole dug in the ground, called a cyclone cellar, where the family could go in case one of those great whirlwinds arose, mighty enough to crush any building in its path. It was reached by a trap door in the middle of the floor, from which a ladder led down into the small, dark hole.</p>
+        </section>
+
+        <section>
+            <h3>Font-size, Leading and Measure</h3>
+          <pre><code>html {
+  font-size: 18px; // Minimum of 18px on mobile
+  line-height: 1.4; // 1.3 - 1.6
+}
+
+p {
+  width: 30em; // 45 - 75 characters
+}  </code></pre>
+        </section>
+
+
+        <section>
+          <h1 class="align-center">Typography <br> Best Practices</h1>
+        </section>
+        <section>
+          <h3>Typography Best Practices</h3>
+          <ul>
+            <li>Modular Scale</li>
+            <li>Vertical Rhythm</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Modular Scale</h2>
+        </section>
+        <section data-background="images/modular-scale.png"></section>
+        <section>
+          <h3>Using Modular Scale</h3>
+          <pre><code>html { font-size: 16px; }
+h1 { font-size: 50.517px; } // 16px * 1.333 * 1.333 * 1.33 * 1.33
+h2 { font-size: 37.897px; } // 16px * 1.333 * 1.333 * 1.33
+h3 { font-size: 28.430px; } // 16px * 1.333 * 1.333</code></pre>
+        </section>
+        <section>
+          <h2>Vertical Rhythm</h2>
+        </section>
+
+        <section>
+          <h3>Using Vertical Rhythm</h3>
+          <ul>
+            <li><strong>Vertical white space between elements</strong> to a <strong>multiple of 24px.</strong></li>
+            <li><strong>Line-height of all text elements</strong> to a <strong>multiple of 24px.</strong></li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Using Vertical Rhythm</h3>
+          <pre><code>html {
+  line-height: 24px;
+}
+
+h1 {
+  line-height: 48px;
+  margin: 24px 0;
+}
+
+p {
+  margin: 24px 0;
+}         </code></pre>
+        </section>
+
+        <section>
+          <h3>Creating a Baseline Grid</h3>
+          <div class="l-half">
+            <div>
+              <pre><code>body {
+  background: repeating-linear-gradient(
+  to bottom,
+  transparent 0px,
+  transparent 23px,
+  red 23px,
+  red 24px
+);
+              }</code></pre>
+            </div>
+            <div style="background: repeating-linear-gradient(to bottom, transparent 0px, transparent 23px, red 23px, red 24px); height: inherit">
+            </div>
+          </div>
+        </section>
+
+        <section data-background="images/vertical-rhythm.png"></section>
+
+        <section><h2>Modular Scale + Vertical Rhythm</h2></section>
+
+        <section>
+          <h3>Modular Scale + Vertical Rhythm</h3>
+          <pre><code>html {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 { font-size: 50px; }  // 1.333 * 1.333 * 1.333 * 1.333        </code></pre>
+        </section>
+
+        <section>
+          <h3>Modular Scale + Vertical Rhythm</h3>
+          <pre><code>html {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 72px; // 24px * 3;
+}         </code></pre>
+        </section>
+
+        <section>
+          <p class="mock-h1--lh-high">This is a header <br> with two lines of text</p>
+          <p class="mock-p">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section>
+          <h3>Modular Scale + Vertical Rhythm</h3>
+          <pre><code>h1 {
+  font-size: 50px;
+  line-height: 48px; // 24px * 2. Line height of 0.96
+}       </code></pre>
+        </section>
+
+        <section>
+          <p class="mock-h1--lh-low">This is a header <br> with two lines of text</p>
+          <p class="mock-p">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+
+        <section>
+          <h3>Modular Scale + Vertical Rhythm</h3>
+          <pre><code>h1 {
+  font-size: 50px;
+  line-height: 60px; // 60px = 2.5 * 24px. Line height = 1.2
+}       </code></pre>
+        </section>
+
+        <section>
+          <p class="mock-h1">This is a header <br> with two lines of text</p>
+          <p class="mock-p">The nuckelavee is a horse-like demon from Orcadian mythology that combines equine and human elements. The name of this most horrible of all the demons of the Scottish islands may be a progenitor of that by which the Devil is sometimes known, Old Nick.</p>
+        </section>
+<!--
+        <section>
+          <h2>The Principle of Repetition</h2>
+        </section>
+
+        <section>
+          <h3>Using Vertical Rhythm</h3>
+          <ul>
+            <li><strong>Vertical white space between elements</strong> to a <strong>multiple of 24px.</strong></li>
+            <li><strong>Line-height of all text elements</strong> to a <strong>multiple of 24px.</strong></li>
+          </ul>
+        </section>
+
+        <section> <div class="align-center"><img src="images/baseline-24.png"> </div></section>
+
+        <section>
+          <h3>More about Vertical Rhythm</h3>
+          <ul>
+            <li><a href="http://zellwk.com/blog/why-vertical-rhythms/">Why Vertical Rhythms are important</a></li>
+            <li><a href="http://zellwk.com/blog/web-typography-broken/">Web vs Print baseline grids </a></li>
+          </ul>
+        </section>-->
+        <section>
+          <h1 class="align-center">Responsive Typography  <br> Best Practices</h1>
+        </section>
+
+        <section>
+          <h3>Responsive Typography Best Practices</h3>
+          <ul>
+            <li>Change font-size when screen width changes</li>
+            <li>Use Relative Units</li>
+            <li>Modular Scale</li>
+            <li>Vertical Rhythm</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Changing Font-size</h2>
+        </section>
+
+        <section data-background="images/viewing-distance.png"></section>
+
+        <section>
+          <h3>Changing Font-size when screen width changes</h3>
+          <pre><code>html {
+  font-size: 16px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 20px;
+  }
+}         </code></pre>
+        </section>
+
+        <section>
+          <h3>Changing Font-size and line-height</h3>
+          <pre><code>html {
+  font-size: 16px;
+  line-height: 1.4;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1000px) {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+}         </code></pre>
+        </section>
+
+        <section>
+          <h2>Use Relative Units</h2>
+        </section>
+
+        <section>
+          <h3>Converting to Relative Units</h3>
+          <pre><code>html {
+  font-size: 16px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 50.517px;
+  @media (min-width: 600px) {
+    font-size: 56.83px;
+  }
+}
+// ... and so on         </code></pre>
+        </section>
+
+        <section>
+          <h3>Converting to Relative Units</h3>
+          <pre><code class="scss">html {
+  font-size: 16px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+h1 { font-size: 3.157rem } // 1.333 * 1.333 * 1.333 * 1.333
+h3 { font-size: 2.369rem } // 1.333 * 1.333 * 1.333
+h2 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
+        </section>
+
+        <section>
+          <h3>Use Relative Units</h3>
+          <ul>
+            <li>Em</li>
+            <li>Rem</li>
+            <!-- <li>Viewport Units</li> -->
+          </ul>
+        </section>
+
+        <section>
+          <h2>Em</h2>
+        </section>
+
+        <section>
+          <blockquote>
+            An EM is a unit of typography, equal to the currently specified point-size
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Em</h3>
+          <pre><code>h1 { font-size: 20px } /* 1em = 20px */
+p { font-size: 16px } /* 1em = 16px */</code></pre>
+        </section>
+
+        <section>
+          <h3>Using Em on font-size property</h3>
+          <pre><code>html { font-size: 16px }
+h1 { font-size: 2em } /* 16px * 2 = 32px */</code></pre>
+        </section>
+
+        <section>
+          <h3>Using Em on other properties</h3>
+          <pre><code>h1 {
+  font-size: 2em; /* 1em = 16px */
+  margin-bottom: 1em; /* 1em = 32px */
+}
+
+p {
+  font-size: 1em; /* 1em = 16px */
+  margin-bottom: 1em; /* 1em = 16px */
+}</code></pre>
+        </section>
+
+        <section>
+          <h2>Rem</h2>
+        </section>
+
+        <section>
+          <blockquote>
+            An REM is a unit of typography, equal to the <strong>root</strong> font-size
+          </blockquote>
+        </section>
+
+        <section>
+          <h3>Rem</h3>
+          <pre><code>html { font-size: 16px } /* 1rem === 16px, always */</code></pre>
+        </section>
+
+        <section>
+          <h3>Using Rem on other properties</h3>
+          <pre><code>h1 {
+  font-size: 2rem; /* 1rem = 16px */
+  margin-bottom: 1rem; /* 1rem = 16px */
+}
+
+p {
+  font-size: 1rem; /* 1rem = 16px */
+  margin-bottom: 1rem; /* 1rem = 16px */
+}</code></pre>
+        </section>
+
+        <section>
+          <h2>Rem or Em?</h2>
+        </section>
+
+        <section>
+          <p><a href="http://zellwk.com/blog/rem-vs-em/">Rem vs Em – The Great Debate</a></p>
+          <ul>
+            <li>Rem for global sizing</li>
+            <li>Em for local sizing</li>
+          </ul>
+        </section>
+
+<!--        <section>
+          <h2>Viewport Units</h2>
+        </section>
+
+        <section>
+          <h3>Viewport Units</h3>
+          <ul>
+            <li>vw – Percentage of viewport width</li>
+            <li>vh – Percentage of viewport height</li>
+            <li>vmin – vw or vh, whichever smaller</li>
+            <li>vmax – vw or vh, whichever bigger</li>
+          </ul>
+        </section>
+
+        <section data-background="images/quarter-viewport-component.gif"></section>
+
+        <section>
+          <h3>Using Viewport Units</h3>
+          <pre><code>html {
+  font-size: 3vw
+}</code></pre>
+        </section>
+
+        <section>
+          <img src="images/vw-resize.gif" alt="">
+        </section>
+
+        <section>
+          <h3>Using Viewport Units</h3>
+          <pre><code>html {
+  font-size: calc(112.5% + 0.5vw)
+}</code></pre>
+        </section>
+
+        <section>
+          <img src="images/taming-vw.gif" alt="">
+        </section>
+
+        <section>
+          <div class="formula display align-center">
+            calc(lf + (lf - sf) * \frac{100vw - sv}{lv - sv})
+          </div>
+          <div class="align-center">
+            <ul class="legend">
+              <li>lf: large-font-size</li>
+              <li>sf: small-font-size</li>
+              <li>lv: large viewport</li>
+              <li>sv: small viewport</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Viewport Units</h3>
+          <ul>
+            <li><a href="http://madebymike.com.au/writing/precise-control-responsive-typography/">Precise Control over Responsive Typography</a></li>
+            <li><a href="http://zellwk.com/blog/viewport-based-typography/">Viewport Unit Based Typography</a></li>
+          </ul>
+          <p></p>
+        </section>
+
+        <section>
+          <h3>Using Viewport Units</h3>
+          <ul>
+            <li>Only use vw for html</li>
+            <li>Rem and Em for everything else</li>
+          </ul>
+        </section> -->
+
+        <section>
+          <h2>Responsive Modular Scale</h2>
+        </section>
+
+        <section>
+          <h3>Responsive Modular Scale</h3>
+          <pre><code class="scss">html {
+  font-size: 16px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+h1 { font-size: 3.157rem } // 1.333 * 1.333 * 1.333 * 1.333
+h3 { font-size: 2.369rem } // 1.333 * 1.333 * 1.333
+h2 { font-size: 1.777rem } // 1.333 * 1.333         </code></pre>
+        </section>
+
+        <section data-background="images/modular-scale-big.png"> </section>
+
+        <section>
+          <pre><code class="scss">html {
+  font-size: 16px;
+  @media (min-width: 600px) {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 2.369rem // 1.333 * 1.333 * 1.333
+  @media (min-width: 600px) {
+    font-size: 3.157rem; // 1.333 * 1.333 * 1.333 * 1.333
+  }
+}</code></pre>
+        </section>
+
+        <section>
+          <h3>Fixing Modular Scale (Keep Scale)</h3>
+          <pre><code class="scss">h1 {
+  font-size: 2.369rem // 1.333 * 1.333 * 1.333
+  @media (min-width: 600px) {
+    font-size: 3.157rem; // 1.333 * 1.333 * 1.333 * 1.333
+  }
+}
+
+h2 {
+  font-size: 1.777rem // 1.333 * 1.333
+  @media (min-width: 600px) {
+    font-size: 2.369rem; // 1.333 * 1.333 * 1.333
+  }
+}
+
+h3 {
+  font-size: 1.333rem // 1.333
+  @media (min-width: 600px) {
+    font-size: 1.777rem; // 1.333 * 1.333
+  }
+}
+// ... </code></pre>
+        </section>
+
+        <section data-background="images/scream.gif"></section>
+
+        <section>
+          <h2 class="align-center">There is a way to fix this madness!</h2>
+        </section>
+
+        <section>
+          <h2>Introducing Typi</h2>
+          <div class="small relative">
+            <div class="fragment fade-out">(The fix for modular scale madness)</div>
+            <div class="absolute fragment">(Also the fix for "What if my designer doesn't follow modular scale???")</div>
+          </div>
+
+          <p class="small fragment"><a href="https://github.com/zellwk/typi">https://github.com/zellwk/typi</a></p>
+        </section>
+
+        <section>
+          <h3>Using Typi (body text)</h3>
+          <div class="l-half">
+            <div>
+              <pre><code>\$breakpoints: (
+  small: 600px,
+  large: 1000px
+);
+              </code></pre>
+            </div>
+
+            <div>
+
+              <pre><code class="scss">\$typi: (
+  null: (16px, 1.4),
+  small: 18px,
+  large: (20px, 1.5)
+);            </code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Using Typi (body text)</h3>
+          <div class="l-half">
+            <div>
+              <pre><code>// Sass input
+html {
+  @include typi-base();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+</code></pre>
+            </div>
+
+            <div>
+              <pre><code> /* CSS Output */
+html {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+@media all and (min-width: 600px) {
+  html {
+    font-size: 112.5%;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  html {
+    font-size: 125%;
+    line-height: 1.5;
+  }
+} </code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Using Typi (Other elements)</h3>
+          <div class="l-half">
+            <div>
+              <pre><code class="scss">// Scss input
+\$h1-map: (
+  null: (2.369em, 1.2),
+  large: (3.157em, 1.3)
+);
+
+\$h2-map: (
+  null: (1.777em, 1.2),
+  large: 2.369em
+);
+
+h1 { @include typi(\$h1-map); }
+h2 { @include typi(\$h2-map); }
+
+
+
+</code></pre>
+            </div>
+
+            <div>
+              <pre><code>/* CSS Output */
+h1 {
+  font-size: 2.369rem;
+  line-height: 1.2;
+}
+
+@media all and (min-width: 1000px) {
+  h1 {
+    font-size: 3.157rem;
+    line-height: 1.3;
+  }
+}
+
+h2 {
+  font-size: 2.369rem;
+}
+
+@media all and (min-width: 1000px) {
+  h2 {
+    font-size: 1.777rem;
+  }
+}</code></pre>
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <h3>Using Typi (Pro-tip)</h3>
+          <div class="l-half">
+            <div>
+              <pre><code class="scss">// Scss input
+\$ms-ratio: 1.333;
+\$h1-map: (
+  null: (ms(2), 1.2),
+  large: (ms(3), 1.3)
+);
+
+\$h2-map: (
+  null: (ms(1), 1.2),
+  large: ms(2)
+);
+
+h1 { @include typi(\$h1-map); }
+h2 { @include typi(\$h2-map); }
+
+
+
+</code></pre>
+            </div>
+
+            <div>
+              <pre><code>/* CSS Output */
+h1 {
+  font-size: 2.369rem;
+  line-height: 1.2;
+}
+
+@media all and (min-width: 1000px) {
+  h1 {
+    font-size: 3.157rem;
+    line-height: 1.3;
+  }
+}
+
+h2 {
+  font-size: 2.369rem;
+}
+
+@media all and (min-width: 1000px) {
+  h2 {
+    font-size: 1.777rem;
+  }
+}</code></pre>
+            </div>
+          </div>
+        </section>
+<!--
+        <section>
+          <h2>Changing the Modular Scale</h2>
+        </section>
+
+        <section>
+          <div class="l-half">
+            <div>
+              <h3> Add Magic Number </h3>
+              <img src="images/ms-addbase.png" alt="">
+            </div>
+            <div class='relative'>
+              <h3> Add ratio </h3>
+              <img src="images/ms-addratio.png" alt="">
+            </div>
+          </div>
+        </section> -->
+
+        <section>
+          <h2>Vertical Rhythm</h2>
+        </section>
+
+        <section>
+          <h3>The code so far ...</h3>
+          <pre><code>html { @include typi-base(); }
+h1 { @include typi(\$h1-map); }
+h2 { @include typi(\$h2-map); }
+h3 { @include typi(\$h3-map); }</code></pre>
+        </section>
+
+        <section>
+          <h3>Vertical Rhythm with Relative Units</h3>
+          <pre><code>// Baseline of 1.5
+
+h1 {
+  margin: 1.5rem; // instead of 24px
+} </code></pre>
+        </section>
+
+        <section>
+          <h3>Vertical Rhythm with Typi</h3>
+          <pre><code>// Baseline = 1.5rem
+margin: vr(1); // instead of 1.5rem
+margin: vr(2); // instead of 3rem
+margin: vr(3); // instead of 4.5rem</code></pre>
+        </section>
+
+        <section>
+          <h3><strikethrough>Responsive</strikethrough>Vertical Rhythm 😱😱😱</h3>
+
+          <div class="l-half">
+            <div>
+              <pre><code>html {
+  line-height: 1.4;
+  @media (min-width: 1000px) {
+    line-height: 1.5;
+  }
+} </code></pre>
+            </div>
+
+            <div>
+              <pre><code>h1 {
+  margin: 1.4rem;
+  @media (min-width: 1000px) {
+    margin 1.5rem;
+  }
+}
+</code></pre>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Responsive? Vertical Rhythm (We can't do this yet)</h3>
+          <pre><code>// Will be added to Typi when there is good support for CSS Variables
+:root {
+  --baseline: 1.4;
+  @media (min-width: 1000px) {
+    --baseline: 1.5;
+  }
+}
+
+html { line-height: var(--baseline); }
+h1 { margin: calc(var(--baseline) * 2); } </code></pre>
+        </section>
+
+        <section>
+          <h1 class="align-center">That's it!</h1>
+        </section>
+
+        <section>
+          <h1 class="align-center">Questions?</h1>
+        </section>
+
+        <section>
+          <h2>I'm Zell</h2>
+          <ul>
+            <li><a href="mailto:zellwk@gmail.com">zellwk@gmail.com</a></li>
+            <li><a href="https://twitter.com/zellwk">@zellwk</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+    // Full list of configuration options available at:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+      width: 1150,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [{
+          src: 'lib/js/classList.js',
+          condition: function() {
+            return !document.body.classList;
+          }
+        }, {
+          src: 'plugin/markdown/marked.js',
+          condition: function() {
+            return !!document.querySelector('[data-markdown]');
+          }
+        }, {
+          src: 'plugin/markdown/markdown.js',
+          condition: function() {
+            return !!document.querySelector('[data-markdown]');
+          }
+        }, {
+          src: 'plugin/highlight/highlight.js',
+          async: true,
+          callback: function() {
+            hljs.initHighlightingOnLoad();
+          }
+        }, {
+          src: 'plugin/zoom-js/zoom.js',
+          async: true
+        }, {
+          src: 'plugin/notes/notes.js',
+          async: true
+        }, {
+          src: 'plugin/math-katex/math-katex.js',
+          async: true
+        }]
+      });
+</script>
+</body>
+
+
+
+</html>

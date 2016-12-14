@@ -232,7 +232,7 @@ section.has-dark-background {
 }
 
 .l-right {
-  line-height: 1.3 !important;
+  line-height: 1.35 !important;
 }
 .reveal .legend {
   list-style: inside;
@@ -281,4 +281,8 @@ section.has-dark-background {
 
 strikethrough {
   text-decoration: line-through;
+}
+
+.dismissed {
+  opacity: 0.3;
 }
